@@ -15,6 +15,10 @@ I used pyplot to visualize the prediction result produced by a DNN using TensorF
 
 ![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/test1.png)
 
+## Object Detection(to be continued)
+For my first approach, I used IMAGEAI, a python library for image recognition. I imported pretrained weights and implemented YOLOv3 (You Only Look Once) to do the object detection and draw bounding box around the object.
+![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/apples_peaches1.jpg)
+
 ## Reference
 Classify images of clothing: 
 
