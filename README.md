@@ -1,5 +1,4 @@
 # Fruits-Image-classification-using-deep-learning
-![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/download%20(1).png)
 ## Project Summary
  Fruit image classification and object detection is an important task in many business applications. A fruit classification system may be used to help a supermarket cashier identify the fruit species and prices. It may also be used to help people decide whether specific fruit species meet their dietary requirements. In this project, I propose an efficient framework for fruit classification using deep learning. More specifically, the framework is based on two different deep learning architectures. 
 
