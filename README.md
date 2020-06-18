@@ -18,11 +18,12 @@ Test accuracy reached 98.88%
 ## Object Detection Using FasterRCNN+InceptionResNet V2
  For my first approach, I used IMAGEAI, a python library for image recognition. I imported pretrained weights and implemented YOLOv3 (You Only Look Once) to do the object detection and draw bounding box around the object. 
  
-![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/apples_peaches1.jpg)
+ ![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/apples_peaches1.jpg)
+
 
  Inpired by TensorFlow's object detection lab and  TF object detection API, later I started to use a hybrid model with FasterRCNN and InceptionV2, which yielded much better result than IMAGEAI. I ran the model on a TF-Hub trained module to perform object detection. This pre-trained model is not 100% accurate, as it recognize a Pomegranate as an apple with 28% of chance(it did suspect the fruit is a pomergranate by detecting the correct class entity(pomergranate) but gave the entity a very low score). It is suggested to train the model with a set of fruits images only instead of using pretained weights to improve the prediction outcome. 
  
-![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/apples_peaches1.jpg)
+![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/download%20(1).png)
 
 ## Reference
 Classify images of clothing: 
