@@ -35,7 +35,7 @@ detector = hub.load(module_handle).signatures['default']
 FasterRCNN+InceptionResNet V2 result:
 ![alt text](https://github.com/Bommi95/Fruits-Image-classification-using-deep-learning/blob/master/download%20(1).png)
 
-Below is a list of all entities detected by the hybrid model. The output is taken from in Object Detection.ipynb file above.
+Below is a list of all entities detected by the hybrid model in the provided image. The output is taken from in Object Detection.ipynb file above.
 ```pythpn
 l=('detection_class_entities','detection_scores')
 for i in range(len(result['detection_class_entities'])):
